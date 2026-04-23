@@ -1,0 +1,142 @@
+:root {
+  --bg: #0d0d10;
+  --surface: #15151a;
+  --surface-2: #1c1c24;
+  --border: #2d2d38;
+  --text: #f3f4f6;
+  --muted: #a1a1aa;
+  --accent: #ffb703;
+  --accent-2: #fb8500;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: linear-gradient(180deg, #0b0b10 0%, #11111a 100%);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+a { color: inherit; }
+
+.pageShell {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+
+.hero {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: rgba(28, 28, 36, 0.8);
+  margin-bottom: 20px;
+}
+.hero h1 { margin: 8px 0; font-size: 2.4rem; }
+.hero p { margin: 0; color: var(--muted); }
+.eyebrow {
+  display: inline-block;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.filters {
+  display: grid;
+  gap: 12px;
+  background: rgba(21, 21, 26, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.filters input,
+.filters select,
+.filters button {
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  padding: 12px 14px;
+  font: inherit;
+}
+.filters button {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: #111;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filterGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 20px 0 14px;
+}
+.sectionHeader h2, .sectionHeader p { margin: 0; }
+.sectionHeader p { color: var(--muted); }
+
+.cardList {
+  display: grid;
+  gap: 14px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  background: rgba(21, 21, 26, 0.95);
+  border-radius: 20px;
+}
+.timeBlock strong {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+.timeBlock span { color: var(--muted); font-size: 0.85rem; }
+.contentBlock h3 { margin: 0 0 6px; }
+.contentBlock p { margin: 0 0 12px; color: var(--muted); }
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.badge {
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  border: 1px solid var(--border);
+}
+.venue { background: #1d2440; }
+.genre { background: #173225; }
+.price { background: #3a2611; }
+.free { background: #123222; }
+.ticketLink {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .filterGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+}

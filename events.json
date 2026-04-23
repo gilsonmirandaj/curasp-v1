@@ -1,0 +1,89 @@
+{
+  "updated": "2026-04-16T01:36:03Z",
+  "events": [
+    {
+      "name": "Ze Ibarra",
+      "detail": "",
+      "date": "Qui 23/4",
+      "time": "19h",
+      "iso": "2026-04-23",
+      "venue": "Cine Joia",
+      "v": "cine",
+      "genre": "MPB",
+      "price": "",
+      "url": "https://www.songkick.com/concerts/43094750"
+    },
+    {
+      "name": "Show part. Djonga",
+      "detail": "Show autoral",
+      "date": "Qui 23/4",
+      "time": "21h",
+      "iso": "2026-04-23",
+      "venue": "SESC SP",
+      "v": "sesc",
+      "genre": "Hip-hop",
+      "price": "",
+      "url": "https://www.sescsp.org.br/?s=Djonga"
+    },
+    {
+      "name": "Mari Jasca",
+      "detail": "Show solo Disparada",
+      "date": "Sex 24/4",
+      "time": "20h",
+      "iso": "2026-04-24",
+      "venue": "SESC 14 Bis",
+      "v": "sesc",
+      "genre": "MPB",
+      "price": "R$60",
+      "url": "https://www.sescsp.org.br/?s=Mari+Jasca"
+    },
+    {
+      "name": "Maglore",
+      "detail": "",
+      "date": "Sex 24/4",
+      "time": "21h",
+      "iso": "2026-04-24",
+      "venue": "Cine Joia",
+      "v": "cine",
+      "genre": "Indie Rock",
+      "price": "",
+      "url": "https://shotgun.live/en/events/maglorenocinejoia"
+    },
+    {
+      "name": "Catto",
+      "detail": "Caminhos Selvagens + tributo Gal",
+      "date": "Sab 25/4",
+      "time": "20h",
+      "iso": "2026-04-25",
+      "venue": "SESC 14 Bis",
+      "v": "sesc",
+      "genre": "MPB",
+      "price": "R$60",
+      "url": "https://www.sescsp.org.br/programacao/"
+    },
+    {
+      "name": "Sarah Leandro",
+      "detail": "Forro de Bodoco",
+      "date": "Dom 26/4",
+      "time": "16h",
+      "iso": "2026-04-26",
+      "venue": "SESC Bom Retiro",
+      "v": "sesc",
+      "genre": "Forro",
+      "price": "Gratis",
+      "url": "https://www.sescsp.org.br/?s=Sarah+Leandro"
+    },
+    {
+      "name": "Varukers",
+      "detail": "",
+      "date": "Sex 08/5",
+      "time": "",
+      "iso": "2026-05-08",
+      "venue": "Cine Joia",
+      "v": "cine",
+      "genre": "Punk",
+      "price": "",
+      "url": "https://shotgun.live/pt-br/events/thevarukersnocinejoia"
+    }
+  ]
+}
